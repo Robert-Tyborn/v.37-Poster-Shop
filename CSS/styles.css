@@ -72,10 +72,10 @@ main{
 
 .card p{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 16px;
+    font-size: 23px;
     font-style: normal;
     font-weight: 400;
-    line-height: 22.6px;
+    line-height: 32px;
     width: 100%;
 }
 
@@ -90,12 +90,14 @@ main{
     padding: 8px 16px;
     gap: 10px;
     border-radius: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
+    font-weight: 600;
     background-color: #e83f57;
     width: 160px;
-    height: 50px;
+    height: 30px;
     border: 0;
-    line-height: 32px;
+    line-height: 14px;
     
 }
 
@@ -111,4 +113,22 @@ main{
    
     margin-bottom: 12px;
     margin-left: 15px;
+}
+
+ .card .large-button{
+    display: flex;
+    margin-top: auto;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    /* padding: 8px 16px;
+    gap: 10px; */
+    border-radius: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: 600;
+    background-color: #e83f57;
+    width: 160px;
+    height:45px;
+    border: 0;
+    line-height: 30px;
 }
