@@ -96,3 +96,17 @@ main{
     width: 200px;
     border: 0;
 }
+
+.large-card{
+    color: black;
+    background-color: white;
+    grid-column: span 3;
+    grid-row: 4 / span 1;
+    padding: ;
+}
+
+.large-card-item{
+   
+    margin-bottom: 12px;
+    margin-left: 15px;
+}
