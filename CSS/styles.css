@@ -55,8 +55,7 @@ main{
     width: 100%;
     grid-column: auto / span 2;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
 }
 
 .card img{
@@ -64,15 +63,15 @@ main{
 }
 
 .card h2{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 34px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
     font-style: normal;
     font-weight: 700;
     line-height: 40.8px;
 }
 
 .card p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -81,8 +80,8 @@ main{
 }
 
 .card .rectangle{
-    /* width: 112px;
-    height: 19px; */
+    width: 112px;
+    height: 40px;
 }
 
 .card button{
@@ -93,8 +92,11 @@ main{
     border-radius: 4px;
     color: white;
     background-color: #e83f57;
-    width: 200px;
+    width: 160px;
+    height: 50px;
     border: 0;
+    line-height: 32px;
+    
 }
 
 .large-card{
@@ -102,7 +104,7 @@ main{
     background-color: white;
     grid-column: span 3;
     grid-row: 4 / span 1;
-    padding: ;
+    
 }
 
 .large-card-item{
