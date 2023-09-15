@@ -162,12 +162,12 @@ main{
 
 .social-images{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .links{
     color: rgb(255, 255, 255);
 }
 a:hover{
-    color: rgb(245, 69, 172);
+    color:#3DE07E;
 }
