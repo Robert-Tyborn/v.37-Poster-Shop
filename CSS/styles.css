@@ -132,3 +132,41 @@ main{
     border: 0;
     line-height: 30px;
 }
+
+.block-footer{
+    width: 100%;
+    height: 340px;
+    margin: 0;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(59, 59, 59);
+    display: flex;
+    flex-direction:row;
+    align-items:first baseline;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 160px;
+}
+
+.block-footer h2{
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1px;
+}
+
+.block-footer p{
+    line-height: 10px;
+}
+
+.social-images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: rgb(245, 69, 172);
+}
